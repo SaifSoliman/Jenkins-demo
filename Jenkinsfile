@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test Poll') {
             steps {
-                echo 'Hello from poll SCM'
+                echo 'Hello from poll SCM 2'
             }
         }
     }
