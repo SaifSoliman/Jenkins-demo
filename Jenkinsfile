@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Test Poll') {
+            steps {
+                echo 'Hello from poll SCM'
+            }
+        }
     }
 }
